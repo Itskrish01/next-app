@@ -30,7 +30,7 @@ export function Text({
         if (textRef != null) {
             calculateBgColor();
             if (!isHeaderFamily(style!)) {
-                const hasClamping = (el) => {
+                const hasClamping = (el: any) => {
                     const { clientHeight, scrollHeight } = el;
                     return clientHeight !== scrollHeight;
                 };

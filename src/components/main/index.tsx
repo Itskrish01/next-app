@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Img } from "..";
+import { Button, Container, Image, Link, Text } from "..";
 
 
 export const Main: React.FC = () => {
@@ -10,12 +10,11 @@ export const Main: React.FC = () => {
           <div className="w-auto">
             <div className="flex flex-wrap items-center">
               <div className="w-auto mr-14">
-                <a href="#">
-                  <Img src="assets/flaro-assets/logos/flaro-logo-black.svg" alt="" className />
-                </a>
+                <Link href="#">
+                  <Image src="assets/flaro-assets/logos/flaro-logo-black.svg" alt="" className />
+                </Link>
               </div>
               <div className="w-auto hidden lg:block">
-
               </div>
             </div>
           </div>
@@ -27,9 +26,8 @@ export const Main: React.FC = () => {
                 </div>
               </div>
               <div className="w-auto lg:hidden">
-                <a href="#">
-
-                </a>
+                <Link href="#">
+                </Link>
               </div>
             </div>
           </div>
@@ -45,34 +43,34 @@ export const Main: React.FC = () => {
             <img className="absolute left-0 bottom-0" src="assets/flaro-assets/images/headers/gradient3.svg" alt="" />
             <div className="relative z-20 flex flex-wrap items-end -m-8">
               <div className="w-full lg:w-1/2 lg:pr-0 lg:pl-28 lg:py-28 px-16 py-4 mt-12">
-                <h2 className="mb-7 text-6xl md:text-8xl xl:text-10xl font-bold font-heading leading-none">Jahanvee Narang</h2>
-                <p className="mb-10 text-lg text-gray-900 font-medium">Data Analyst @ Lowe's | Aiding Fortune 50 company make better data-driven decision | Customer Analytics | Marketing Analytics | Web Analytics</p>
+                <Text t="Jahanvee Narang" style="mb-7 text-6xl md:text-8xl xl:text-10xl font-bold font-heading leading-none"></Text>
+                <Text t="Data Analyst @ Lowe's | Aiding Fortune 50 company make better data-driven decision | Customer Analytics | Marketing Analytics | Web Analytics" style="mb-10 text-lg text-gray-900 font-medium"></Text>
                 <div className="mb-6 md:inline-block">
                   <Button className="py-4 px-6 w-full font-semibold border border-indigo-700 rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-700 transition ease-in-out duration-200 text-white">LEARN MORE</Button>
                 </div>
 
               </div>
               <div className="w-full lg:w-1/2 p-8">
-                <Img src="assets/flaro-assets/images/headers/profiles.png" alt="" className />
+                <Image src="assets/flaro-assets/images/headers/profiles.png" alt="" className />
               </div>
             </div>
           </div>
-          <p className="mb-9 text-gray-900 text-center font-medium">Brands I have worked with</p>
+          <Text t="Brands I have worked with" style="mb-9 text-gray-900 text-center font-medium"></Text>
           <div className="flex flex-wrap justify-center items-center -m-8">
             <div className="w-auto p-8">
-              <Img src="assets/flaro-assets/logos/brands/brand-xl.png" alt="" className />
+              <Image src="assets/flaro-assets/logos/brands/brand-xl.png" alt="" className />
             </div>
             <div className="w-auto p-8">
-              <Img src="assets/flaro-assets/logos/brands/brand-xl-2.png" alt="" className />
+              <Image src="assets/flaro-assets/logos/brands/brand-xl-2.png" alt="" className />
             </div>
             <div className="w-auto p-8">
-              <Img src="assets/flaro-assets/logos/brands/brand-xl-3.png" alt="" className />
+              <Image src="assets/flaro-assets/logos/brands/brand-xl-3.png" alt="" className />
             </div>
             <div className="w-auto p-8">
-              <Img src="assets/flaro-assets/logos/brands/brand-xl-4.png" alt="" className />
+              <Image src="assets/flaro-assets/logos/brands/brand-xl-4.png" alt="" className />
             </div>
             <div className="w-auto p-8">
-              <Img src="assets/flaro-assets/logos/brands/brand-xl-5.png" alt="" className />
+              <Image src="assets/flaro-assets/logos/brands/brand-xl-5.png" alt="" className />
             </div>
           </div>
         </div>

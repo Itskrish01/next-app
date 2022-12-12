@@ -1,4 +1,4 @@
-export function Img({
+export function Image({
     src,
     alt,
     className
