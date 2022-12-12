@@ -1,3 +1,5 @@
-export const Container = ({ children }) => {
-  return <div className="min-h-screen flex flex-col">{children}</div>;
-};
+import { ReactNode } from "react";
+
+export function Container({ children }: { children: ReactNode }): JSX.Element {
+  return <div className="flex flex-col">{children}</div>;
+}
